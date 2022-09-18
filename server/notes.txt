@@ -1,0 +1,27 @@
+npm init -y => iniciar um projeto em node
+
+### instalações
+npm install express => framework node
+npm install typescript -D => instala o typescript apenas para ambiente de desenvolvimento
+em produção não é usado, porque o node não entende
+npm install ts-node-dev -D => 
+npm install @types/express -D => instala pacote adicional para suporte ao typescript (porque a biblioteca express não foi escrita em typescript)
+npm install prisma -D => ORM para banco de dados
+npm install @prisma/client
+npm install cors => protege a aplicação informando quais front-ends podem acessa-lá
+npm install @types/cors
+
+##########
+add type:module no package.json para poder usar o ecmascript modules
+renomear arquivo para .mjs
+
+npx => server pra executar alguma executavel de bibliotecas instaladas no projeto
+npx tsc --init => cria o arquivo de configurações do typescript
+npx prisma init => cria o arquivo de configurações do prisma
+npx prisma migrate dev => criar uma migration
+npx prisma studio => gera uma interface para navegar pelo banco de dados
+
+
+### configurações
+"dev": "tsnd --exit-child src/server.ts" => --exit-child reinicia a conexção com o banco
+app.use(express.json()) => para que o express consiga entender informações em json

@@ -1,0 +1,24 @@
+## Libs instaladas
+npm install -D tailwindcss postcss autoprefixer
+phosphor-react => lid de icons
+npm install @radix-ui/react-dialog => criar componente modal
+npm install @radix-ui/react-checkbox
+npm install @radix-ui/react-toggle-group
+npm install axios => usado para fazer requisições
+
+### Executar 
+npx tailwindcss init => cria o arquivos de configs do tailwind
+npx tailwindcss init -p => cria o arquivo de configs do tailwind e o arquivo 
+
+## configs
+setar configs to tailwind
+
+
+
+########
+
+1 - adicionar responsividade
+2 - adicionar carosel => lib keen-slider
+3 - usar radix no componente de select
+4 - adicionar validação => lib react hook form (trabalhar com forms no react) | Zod
+5 - adicionar autenticação (login com discord)

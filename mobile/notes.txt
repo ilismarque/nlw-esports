@@ -1,0 +1,29 @@
+## Criar projeto
+
+expo init nome_projeto --npm(para instalar os pacotes utilizando o npm)
+expo start => inicar a aplicação
+
+## icons
+npm install --save phosphor-react-native
+expo install react-native-svg
+## instalar font
+expo install expo-font @expo-google-fonts/inter
+expo install react-native-safe-area-context
+expo install expo-linear-gradient
+expo install expo-clipboard
+expo install expo-notifications
+expo install expo-modules-core
+
+
+## instalação do core de navegação
+npm install @react-navigation/native => navegacao
+## instalação das dependencias 
+expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+
+
+
+### dicas
+fazer login no expo para usar o serviço de notificações
+1 - notificação de novo anúncio
+2 - Enviar notificação pelo backend
